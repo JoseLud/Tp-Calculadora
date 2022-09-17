@@ -1,0 +1,148 @@
+* {
+    color: grey
+}
+
+/* h1 {
+    background: grey;
+} */
+
+.line {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+h2 {
+    color: snow;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+body {
+    background-color: gainsboro;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    background-color: rgb(43, 41, 41);
+    border-radius: 25px;
+}
+
+.butonUp {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: 1, 50px;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.up:active {
+    background-color: rgb(52, 56, 54);
+}
+
+.der {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.buttonFunct {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat (3, 50px); 
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.fc {
+    background-color: black;
+    border-color: rgb(31, 29, 29);
+}
+
+.fc:active {
+    background-color: gray;
+}
+.buttonNum {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(4, 50px);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.5em;  
+    column-span: all; 
+      
+}
+.az {
+    background-color: rgba(20, 103, 246, 0.85);
+    font-size: .8em;
+}
+
+.col-2 {
+    grid-column: span 2;
+ }
+
+ .nm {
+    color: black;
+ }
+
+ .nm:active {
+    background-color: gray;
+ }
+
+ .az:active {
+    background-color: rgb(101, 203, 216);
+ }
+
+
+ .display {
+    
+    grid-template-rows: 150;
+    grid-column: 1 / -1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: gainsboro;
+    margin: 25px 25px 10px 25px;
+    border-radius: 5px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 0px 10px #00000040;  
+ }
+
+ .acumulado {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+ }
+
+ .actual {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+ }
+
+ button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 10px;
+    font-size: 1em;
+ }
+
+ 
+
+ 
+
+ 
